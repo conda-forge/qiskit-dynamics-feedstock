@@ -1,11 +1,11 @@
-About qiskit-dynamics
-=====================
+About qiskit-dynamics-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-dynamics-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Qiskit/qiskit-dynamics
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-dynamics-feedstock/blob/main/LICENSE.txt)
 
 Summary: Qiskit ODE solver
 
