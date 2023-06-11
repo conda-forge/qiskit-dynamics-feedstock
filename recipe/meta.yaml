@@ -26,7 +26,7 @@ requirements:
     - matplotlib-base >=3.0
     - qiskit-terra >=0.23.0
     - multiset >=3.0.1
-    - jax >=0.2.26
+    - jax >=0.2.26,<0.4.11
     - jaxlib >=0.1.75
 
 test:
