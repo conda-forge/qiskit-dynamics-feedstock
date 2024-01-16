@@ -12,23 +12,23 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install .[jax] -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
+    - setuptools
   run:
-    - qiskit <1.0
-    - python >=3.7
+    - python >=3.8
     - numpy >=1.17
     - scipy >=1.4
-    - sympy >=1.12
     - matplotlib-base >=3.0
-    - qiskit-terra >=0.23.0
+    - qiskit <1.0
     - multiset >=3.0.1
-    - jax >=0.4.0,<=0.4.6
-    - jaxlib >=0.4.0,<=0.4.6
+    - sympy >=1.12
+    - jax
+    - jaxlib
 
 test:
   imports:
