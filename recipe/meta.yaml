@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install .[jax] -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
@@ -27,6 +27,7 @@ requirements:
     - qiskit <1.0
     - multiset >=3.0.1
     - sympy >=1.12
+    - arraylias
     - jax
     - jaxlib
 
