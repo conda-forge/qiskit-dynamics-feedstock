@@ -1,5 +1,5 @@
 {% set name = "qiskit-dynamics" %}
-{% set version = "0.4.5" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-dynamics-{{ version }}.tar.gz
-  sha256: 5785e230d7bdbc6d573062290d6073a75ccec93b26c4889bb66be4dcc74ef6ee
+  sha256: 5eb5199d26254cd8637bf274206d96179adac9c9dfa8018a8aecc1ec9db0a823
 
 build:
   noarch: python
