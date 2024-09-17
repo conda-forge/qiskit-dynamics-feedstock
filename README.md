@@ -3,7 +3,7 @@ About qiskit-dynamics-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-dynamics-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/Qiskit/qiskit-dynamics
+Home: https://github.com/qiskit-community/qiskit-dynamics
 
 Package license: Apache-2.0
 
